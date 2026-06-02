@@ -1,0 +1,61 @@
+# Quarto
+/.quarto/
+*_cache/
+*_files/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Node (unlikely, but guards against accidental installs)
+node_modules/
+npm-debug.log*
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+*.orig
