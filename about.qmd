@@ -1,0 +1,41 @@
+---
+title: "About"
+toc: false
+about:
+  template: trestles
+  image: assets/Ada_Lovelace.png
+  image-alt: "Portrait of Ada Lovelace"
+  image-width: 280px
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/adalovelace/
+    - icon: github
+      text: GitHub
+      href: https://github.com/adalovelace
+    - icon: file-earmark-pdf
+      text: Résumé (PDF)
+      href: assets/Ada_Lovelace_CV.pdf
+---
+
+[ABOUT]{.eyebrow}
+
+## Ada Lovelace, JD PhD
+
+I am a data scientist, university lecturer, and consultant whose work sits at the intersection of applied machine learning, policy research, and education. I think of this practice as *poetical science* — the conviction that rigour and imagination belong together.
+
+### What I do
+
+As **Chief Data Scientist** at Analytical Engine Data, Ltd. I lead consulting engagements for clients including GlaxoSmithKline, AstraZeneca, the Bank of England, the National Health Service, HM Treasury, the BBC, and Lloyd's of London. My work spans the full data science lifecycle: gathering requirements, designing scalable models, and deploying solutions that inform real decisions.
+
+As **Teaching Professor** at the University of Cambridge I teach programming (Python, SQL), statistics, machine learning, and reproducible scientific publishing. I redesigned beginner and intermediate Python curricula and created a new course on reproducible dissemination.
+
+### Background
+
+I completed my **Ph.D. in Educational Leadership & Policy Analysis** at Cambridge, where my research touched on learning measurement, design of experiments, psychometrics, and longitudinal analysis. Before that I earned a **Juris Doctor** from the University of London — founding a scholarship fundraising programme for LGBT+ law students along the way — and a **B.A. in History** from Oxford, where I founded Peer Diversity Educators.
+
+Earlier in my career I led data science at UCAS, co-authored grant applications totalling nearly £2 million, and served in research and policy roles at the University of London and the University of Durham.
+
+### Contact
+
+`ada.lovelace@email.co.uk` · +44 20 7946 0958 · Cambridge, England

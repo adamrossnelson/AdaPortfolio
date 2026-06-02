@@ -1,0 +1,30 @@
+---
+title: "Predicting Student Academic Performance"
+description: "An institution-wide model developed at the University of London to identify students at academic risk early enough to support timely intervention."
+date: 2018-03-01
+categories: [machine learning, higher education, policy]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+## Predicting Student Academic Performance
+
+As Senior Divisional Policy Adviser at the University of London, I developed and introduced a predictive model to forecast student academic performance — one of the first applications of machine learning to student success at the institution.
+
+### The problem
+
+Academic risk often goes undetected until a student has already failed an assessment or missed a deadline. By that point, the window for effective early intervention has narrowed considerably. The question was whether structured data available at enrolment and during the first weeks of term could provide reliable early warning signals.
+
+### Approach
+
+I drew on administrative records — prior attainment, enrolment patterns, engagement signals, and demographic data — to train a classification model identifying students at elevated risk of underperformance. The feature set was deliberately limited to data already collected in the course of normal university operations, ensuring the model could be maintained without new data infrastructure.
+
+Model outputs were translated into a simple risk tier visible to personal tutors and student support staff, coupled with recommended follow-up protocols — so that the model's predictions turned into real contact.
+
+### Impact
+
+The model was integrated into the institution's student support workflow. It contributed to the development of subsequent intervention programmes designed to improve retention and student success.
+
+<hr class="punch">
+
+*Developed at the University of London, 2017–2018.*

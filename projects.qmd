@@ -1,0 +1,14 @@
+---
+title: "Work"
+toc: false
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+  fields: [title, description, date, categories]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+Projects in machine learning, research analytics, data governance, and education — drawn from consulting, university research, and independent inquiry.

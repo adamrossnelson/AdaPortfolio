@@ -1,0 +1,34 @@
+---
+title: "Predicting University Applicant Behaviour"
+description: "A suite of ML models built to forecast application, enrolment, and withdrawal decisions across the UK's national admissions system."
+date: 2019-11-01
+categories: [machine learning, higher education, Python]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+## Predicting University Applicant Behaviour
+
+During my time at UCAS I built and curated a catalogue of predictive models designed to understand and forecast the behaviour of university applicants across England, Wales, Scotland, and Northern Ireland.
+
+### The problem
+
+University admissions planning depends on knowing not just who applies, but who will accept an offer, enrol, and persist. Without reliable forecasts, institutions over- or under-provision places, accommodation, and support services — at significant cost to students and institutions alike.
+
+### Approach
+
+Working from a data warehouse I helped design and implement, I developed models predicting:
+
+- **Acceptance probability** — given an offer, will a candidate accept?
+- **Enrolment probability** — given acceptance, will they register on the first day?
+- **Early withdrawal risk** — within the first year, which students are most at risk of leaving?
+
+Methods included logistic regression, gradient boosting, and k-nearest neighbours classifiers, with feature engineering drawing on applicant demographics, subject choices, prior attainment, and timing signals. All workflows were implemented in Python with reproducible notebooks.
+
+### Outcomes
+
+Models informed UCAS's institutional intelligence products used by over 400 universities. The underlying research agenda — including randomised controlled trials and quasi-experimental econometric analyses — was supported by grant funding totalling nearly £2M.
+
+<hr class="punch">
+
+*Conducted at UCAS (Universities and Colleges Admissions Service), Cheltenham, 2018–2020.*

@@ -1,0 +1,24 @@
+---
+title: "Ada Lovelace"
+subtitle: "Data Scientist · Teaching Professor · Consultant"
+page-layout: full
+toc: false
+---
+
+[POETICAL SCIENCE]{.eyebrow}
+
+## Rigour with imagination.
+
+I am a data scientist, educator, and consultant based in Cambridge, England. My work spans the full lifecycle of applied machine learning and research analytics — from framing the right question to deploying models that inform real decisions.
+
+At [Analytical Engine Data, Ltd.](about.qmd) I lead consulting engagements across higher education, healthcare, government, finance, and insurance. At the [University of Cambridge](resume.qmd) I teach courses in programming, statistics, machine learning, and reproducible research.
+
+I hold a Ph.D. in Educational Leadership & Policy Analysis from Cambridge, a Juris Doctor from the University of London, and a B.A. in History from Oxford.
+
+<hr class="punch">
+
+[SELECTED WORK]{.eyebrow}
+
+Explore recent projects in machine learning, data governance, and research methodology.
+
+[View all work →](projects.qmd)

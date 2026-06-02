@@ -1,0 +1,31 @@
+---
+title: "Applied ML for Healthcare Clients"
+description: "Machine learning and research analytics engagements for NHS trusts and pharmaceutical clients, spanning clinical outcomes and commercial decisions."
+date: 2022-06-01
+categories: [machine learning, healthcare, consulting]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+## Applied ML for Healthcare Clients
+
+Through Analytical Engine Data, Ltd. I have led engagements for healthcare clients including the National Health Service and major pharmaceutical companies (GlaxoSmithKline, AstraZeneca). Projects span clinical analytics, commercial decision support, and operational optimisation.
+
+### Representative work
+
+**Predictive modelling for clinical outcomes**  
+Designed and implemented supervised learning models to identify patient cohorts at elevated risk, supporting early intervention programmes. Worked closely with clinical and data engineering teams to ensure model outputs were interpretable and actionable.
+
+**NLP and generative AI advisory**  
+Advised clients on practical applications of large language models and natural language processing — including structured data extraction from clinical notes, literature synthesis, and regulatory documentation drafting — with appropriate attention to hallucination risk and audit requirements.
+
+**Reproducible analytical pipelines**  
+Developed reproducible data science workflows emphasising stakeholder communication: documented code, version-controlled environments, and plain-language summaries of modelling decisions and limitations for non-technical audiences.
+
+### Approach
+
+Healthcare analytics sits in a high-stakes regulatory environment. I design solutions that are robust, explainable, and maintainable — not just accurate. The first deliverable in any engagement is a clear statement of the analytical question; the last is a handoff that the client's team can own.
+
+<hr class="punch">
+
+*Ongoing consulting at Analytical Engine Data, Ltd., Cambridge, 2021–present.*

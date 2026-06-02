@@ -1,0 +1,105 @@
+---
+title: "Résumé"
+toc: true
+toc-location: right
+---
+
+[CURRICULUM VITAE]{.eyebrow}
+
+**Ada Lovelace, JD PhD** · Cambridge, England · ada.lovelace@email.co.uk · +44 20 7946 0958
+
+[Download PDF](assets/Ada_Lovelace_CV.pdf)
+
+<hr class="punch">
+
+## Education
+
+**University of Cambridge** — Ph.D., Educational Leadership & Policy Analysis · 2018  
+Dissertation keywords: learning measurement, design of experiments, psychometrics, multi-site research, longitudinal analysis.
+
+**University of London, Faculty of Laws** — Juris Doctor · 2008  
+Founded a scholarship fundraising programme for LGBT+ law students.
+
+**University of Oxford** — B.A., History · 2003  
+Founded Peer Diversity Educators, a campus organisation providing diversity and inclusion education.
+
+<hr class="punch">
+
+## Instructional Experience
+
+### University of Cambridge — Cambridge, England
+**Teaching Professor** · Jan 2021 – Present
+
+Teach courses in programming (Python, SQL), statistics, machine learning, reproducible publication, and large-scale data science processes.
+
+*Example courses:*
+
+- MATH 755 — Environments and Tools for Large-Scale Behavioural Data Science
+- MATH 750 — Programming for Human Behavioural Data Science
+- MATH 711 — Reproducible Scientific Publishing
+- STAT 822 — Introduction to Quantitative Inquiry
+- STAT 823 — Data Management for Policy Analysis
+
+Redesigned beginner and intermediate Python programming curricula; created a new course on reproducible scientific publication and dissemination. Teach statistical methods including chi-square, correlation, ANOVA, and regression, as well as ML models including k-nearest neighbours, tree-based algorithms, support vector machines, and neural networks.
+
+<hr class="punch">
+
+## Professional Experience
+
+### Analytical Engine Data, Ltd. — Cambridge, England
+**Chief Data Scientist** · Jan 2021 – Present
+
+Lead data science consulting engagements across higher education, healthcare, government (borough, county, and national), finance, and insurance, with a focus on applied machine learning, AI integration, and research analytics.
+
+- Advise clients on data strategy, statistical methodology, and AI/ML integration, including NLP, large language models, and generative AI.
+- Design and implement analytical work including data wrangling, feature engineering, model training, evaluation, and interpretation; develop reproducible workflows with an emphasis on stakeholder communication.
+- Support long- and short-term consulting projects with deliverables including decision support tools, predictive models, and analytics-driven insights.
+
+*Selected clients:* GlaxoSmithKline, AstraZeneca, the Bank of England, the National Health Service, HM Treasury, the Royal Mail, the BBC, the University of Edinburgh, Lloyd's of London, the Royal Statistical Society.
+
+---
+
+### Whitehall Analytics — London, England
+**Data Scientist + Data Governance Consultant** · Mar 2020 – Jan 2021
+
+Provided expertise on advanced analytics and data governance for the Office of the Chief Data Officer at a major government department.
+
+- Served as subject-matter expert on advanced analytics, data standards, data quality, data sharing, and data policy.
+- Planned and executed qualitative and quantitative research to understand the client's data-related capacity and needs.
+
+---
+
+### UCAS (Universities and Colleges Admissions Service) — Cheltenham, England
+**Data Scientist** · Aug 2018 – Feb 2020
+
+Hired as the inaugural research data scientist; introduced the organisation to data science. Oversaw research operations including question selection, methods, and dissemination strategies.
+
+- Co-authored successful grant applications totalling nearly £2M; negotiated in-kind support from private and public sources.
+- Established new collaborations with the University of Cambridge and the Open University.
+- Conducted original quantitative research on university admissions and enrolment; implemented a research agenda including randomised controlled trials, econometric quasi-experimental analysis, and machine learning methods.
+
+---
+
+### University of London — London, England
+
+**Senior Divisional Policy Adviser** · Jun 2017 – Aug 2018  
+Served as the Division of Enrolment Management's chief researcher, providing institution-wide research support. Developed and introduced a model to predict student academic performance.
+
+**Educational Programme Manager** · Aug 2014 – Dec 2016  
+Oversaw planning and implementation of an institution-wide education programme. Supervised 10–15 programmes per week serving 1,500–2,500 students each term.
+
+---
+
+### University of Oxford — Oxford, England
+**On-Site Director, Oxford Talent Identification Programme** · Summers 2007 & 2014  
+Directed operational and instructional leadership for the Oxford Talent Identification Programme. Managed staff training, disciplinary processes, site finances, and logistical coordination.
+
+---
+
+### University of Durham — Durham, England
+**Associate Director of Residence Life** · Jul 2008 – Aug 2014  
+Promoted from Assistant Director for Student Conduct Administration. Oversaw residence life, student conduct, diversity education, academic support, and student organisations.
+
+- Recruited, hired, trained, and coached diverse teams of full-time staff, graduate staff, and interns.
+- Oversaw 1,000+ cases of student discipline involving 2,000+ individuals per year.
+- Designed and implemented an academic intervention and recovery programme that prevented suspension and expulsion for struggling students.

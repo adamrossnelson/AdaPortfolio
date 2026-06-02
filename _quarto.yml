@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ada Lovelace"
+  site-url: "https://adalovlace.github.io/AdaPortfolio/"
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - text: "Work"
+        href: projects.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Résumé"
+        href: resume.qmd
+    right:
+      - icon: github
+        href: https://github.com/adalovelace
+      - icon: linkedin
+        href: https://www.linkedin.com/in/adalovelace/
+  page-footer:
+    border: true
+    center: "© 2026 Ada Lovelace · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: theme.scss
+      dark: [theme.scss, theme-dark.scss]
+    toc: false
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    smooth-scroll: true
+    link-external-icon: false
+    link-external-newwindow: true

@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+
+// Dark mode token overrides — only values that change from light mode
+$paper:     #15161C;
+$ink:       #ECEAE3;
+$surface:   #1E2029;
+$lapis:     #8FA6D6;
+$copper:    #D98E63;
+$muted:     #9A988F;
+$hairline:  #2C2E38;
+
+$body-bg:          $paper;
+$body-color:       $ink;
+$primary:          $lapis;
+$link-color:       $lapis;
+$link-hover-color: $copper;
+$border-color:     $hairline;
+$card-bg:          $surface;
+$card-border-color: $hairline;
+
+$navbar-bg:        $paper;
+$navbar-fg:        $ink;
+$navbar-hl:        $copper;
+
+$footer-bg:        $paper;
+$footer-fg:        $muted;
+$footer-border-color: $hairline;

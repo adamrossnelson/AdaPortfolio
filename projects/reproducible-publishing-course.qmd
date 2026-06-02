@@ -1,0 +1,29 @@
+---
+title: "MATH 711 — Reproducible Scientific Publishing"
+description: "A new Cambridge course teaching researchers to produce literate, version-controlled, and reproducible scholarly work using modern open-source tools."
+date: 2022-01-15
+categories: [education, reproducibility, open science]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+## MATH 711 — Reproducible Scientific Publishing
+
+I designed and deliver this course at the University of Cambridge for graduate students across quantitative disciplines. It is built on the conviction that the *how* of publishing — not just the *what* — is itself a scientific contribution.
+
+### What the course covers
+
+Students leave with practical fluency in:
+
+- **Literate programming** — weaving code, prose, and output into a single auditable document (Quarto, R Markdown, Jupyter)
+- **Version control** — Git workflows for solo and collaborative research
+- **Reproducible environments** — dependency management, containerisation basics, and the principle of the locked environment
+- **Open dissemination** — preprint culture, licensing, data sharing norms, and FAIR principles
+
+### Design philosophy
+
+The course is deliberately tool-agnostic at the level of values: the point is not to use any particular software but to internalise the habit of reproducibility. Assignments are assessed on whether a stranger can re-run the work from scratch and obtain the same result — not just whether the conclusions are correct.
+
+<hr class="punch">
+
+*Taught at the University of Cambridge, MATH 711, from January 2022.*

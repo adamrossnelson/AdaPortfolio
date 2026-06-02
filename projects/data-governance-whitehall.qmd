@@ -1,0 +1,31 @@
+---
+title: "Data Governance for a Government Department"
+description: "Advising the Office of the Chief Data Officer on analytics strategy, data standards, and the foundations of a data-driven culture."
+date: 2020-09-01
+categories: [data governance, government, policy]
+---
+
+[SELECTED WORK]{.eyebrow}
+
+## Data Governance for a Government Department
+
+At Whitehall Analytics I was embedded with the Office of the Chief Data Officer at a major UK government department to provide expertise on advanced analytics and data governance.
+
+### The challenge
+
+Large government departments accumulate data across dozens of legacy systems, with inconsistent standards, unclear ownership, and limited analytical capability. The client needed both strategic direction and practical frameworks to begin building a data-driven culture from within.
+
+### What I did
+
+- **Assessed current state** — planned and executed qualitative and quantitative research to understand the department's data-related capacity, gaps, and needs across business units.
+- **Defined data standards** — served as subject-matter expert on data quality, data sharing, and data policy; developed guidance adopted department-wide.
+- **Scoped analytical solutions** — gathered and interpreted business requirements to design scalable data science solutions appropriate to a regulatory environment.
+- **Managed delivery** — coordinated multiple simultaneous technical workstreams, tracking scope, risk, and dependencies.
+
+### Constraints and principles
+
+Government work demands careful attention to data privacy, security classification, and procurement rules. Solutions were designed to be auditable, maintainable by in-house teams, and compliant with relevant frameworks — not optimised for novelty.
+
+<hr class="punch">
+
+*Conducted at Whitehall Analytics, London, 2020–2021.*
