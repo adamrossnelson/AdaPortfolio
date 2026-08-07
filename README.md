@@ -114,7 +114,6 @@ These are the *only* things that should live in your custom CSS rules. Keep them
 ```yaml
 project:
   type: website
-  output-dir: docs          # lets GitHub Pages serve from /docs (no Action required)
 
 website:
   title: "Ada Lovelace"
@@ -256,9 +255,13 @@ hr.punch {
 ├── theme.scss             # stylesheet — light mode + signature rules
 ├── theme-dark.scss        # dark-mode token overrides only
 ├── assets/                # portrait, project images (with alt text!)
-├── docs/                  # rendered site (served by GitHub Pages) — committed
+├── projects/              # one .qmd per project — feeds the grid listing
 ├── .gitignore
 └── README.md              # you are here
+
+# Generated, not committed:
+# _site/        — local render output (used by `quarto preview` / `render`)
+# gh-pages      — branch that holds the published site
 ```
 
 ---
@@ -275,12 +278,10 @@ hr.punch {
    cd <repo>
    quarto preview
    ```
-3. **Render the full site** to `docs/`:
-   ```bash
-   quarto render
-   ```
 
-A browser tab opens automatically with `quarto preview`; edits to any `.qmd` or to `theme.scss` reload instantly.
+A browser tab opens automatically; edits to any `.qmd` or to `theme.scss` reload instantly. Use `quarto render` if you want a one-shot local build without the live server.
+
+> No need to commit any rendered output. Publishing handles that — see below.
 
 ---
 
@@ -316,42 +317,25 @@ categories: [analysis, writing]   # used as filters / tags
 
 ## Build & deployment (GitHub Pages)
 
-Two supported paths — pick one and stick with it.
+One command. That's the whole pipeline:
 
-### Option A — serve from `/docs` (simplest, no CI)
-
-1. Confirm `output-dir: docs` in `_quarto.yml`.
-2. `quarto render`, then commit the `docs/` folder.
-3. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, branch `main`, folder `/docs`.
-
-The site goes live at `https://<username>.github.io/<repo>/`.
-
-### Option B — render on push (GitHub Action)
-
-Keeps `docs/` out of your commits; CI renders and deploys. Add `.github/workflows/publish.yml`:
-
-```yaml
-on:
-  push:
-    branches: [main]
-
-permissions:
-  contents: write
-
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```bash
+quarto publish gh-pages
 ```
 
-Then set **Settings → Pages → Source: Deploy from a branch → `gh-pages`**.
+Quarto renders the site, pushes the output to the `gh-pages` branch, and (on first run) prompts you to confirm. The site goes live at `https://<username>.github.io/<repo>/`.
+
+**First-time setup**
+
+1. Create the repo on GitHub and push the source (the `.qmd` files, `theme.scss`, `assets/`).
+2. Run `quarto publish gh-pages`. Confirm when prompted.
+3. In **Settings → Pages**, verify the source is the `gh-pages` branch (Quarto sets this for you).
+
+**Re-publishing**
+
+Just run `quarto publish gh-pages` again. No GitHub Action, no committed `docs/` folder, no CI configuration. The rendered site lives only on the `gh-pages` branch — your `main` branch stays clean and source-only.
+
+> **Don't over-engineer this.** No Actions workflow. No committed render output. If you find yourself reaching for either, stop — `quarto publish gh-pages` already does the job.
 
 ---
 
